@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6v0340/B/v1
+canonical_location: https://kanripo.org/bkk/KR6v0340/B/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 正理滴論（譯自梵文本）
+  identifiers:
+    krp: KR6v0340
+    cbeta: B09n0041
+    cbeta_old_id: B09n0041
+    authorityid: CA0006125
+    json_key: B0041
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B09/B09n0041.xml
+    old_id: B09n0041
+  edition:
+    short: B
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0340_000-B.yaml, hash: 'sha256:3965a96a36d1dd96267222497448184dbe95f7c755ea3597116dd728cafede63'}
+  - {seq: 1, filename: KR6v0340_001-B.yaml, hash: 'sha256:96f3d827e7419a883e46f8b472e0510f45d24ae569cc94d5981bf7316a9cc27d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0340_000-B.markers.yaml, hash: 'sha256:d4f540d9c0987315c81a6465d9e5dc2030a5530495348a38f206f91d4d7d9a7f'}
+  - {seq: 1, role: markers, filename: assets/KR6v0340_001-B.markers.yaml, hash: 'sha256:a146b82d260d7e76a93aeaa3a403e11859e6a67ed07ced5ae5996ad1b9ac7ecd'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0340_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 5551
+  label: 正理滴論
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0340_B_001-mulu-1
+    span:
+    - body
+    - 6
+    - 6
+  label: 引言
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0340_B_001-mulu-2
+    span:
+    - body
+    - 158
+    - 158
+  label: 現量品第一
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0340_B_001-mulu-3
+    span:
+    - body
+    - 479
+    - 479
+  label: 為自比量品第二
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0340_B_001-mulu-4
+    span:
+    - body
+    - 1576
+    - 1576
+  label: 為他比量品第三
+  type: mulu
+  level: 1
+hash: sha256:ba5116882a49a0948924e9c8ddaa52231b803a505d1b678b1ad612f36feeb7c7
