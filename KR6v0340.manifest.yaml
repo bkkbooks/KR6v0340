@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6v0340/v1
 canonical_location: https://kanripo.org/bkk/KR6v0340/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 正理滴論（譯自梵文本）
   source:
@@ -14,10 +14,10 @@ metadata:
 assets:
   parts:
   - {seq: 0, filename: KR6v0340_000.yaml, hash: 'sha256:3965a96a36d1dd96267222497448184dbe95f7c755ea3597116dd728cafede63'}
-  - {seq: 1, filename: KR6v0340_001.yaml, hash: 'sha256:96f3d827e7419a883e46f8b472e0510f45d24ae569cc94d5981bf7316a9cc27d'}
+  - {seq: 1, filename: KR6v0340_001.yaml, hash: 'sha256:681d01425180413225cb22c8e1361bc1bc5604eca5328eb83166dec85dd06c79'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6v0340_000.markers.yaml, hash: 'sha256:f4cf5d1e41413e801eb35a87f1db1a3fd875d0ac072971f449516d6cada2b036'}
-  - {seq: 1, role: markers, filename: assets/KR6v0340_001.markers.yaml, hash: 'sha256:8cda9e56fc04300ac1244317ecc07eb2d039cf0958d2a052c9bc27d2a8056605'}
+  - {seq: 1, role: markers, filename: assets/KR6v0340_001.markers.yaml, hash: 'sha256:9b9cf1576d41b50c047dbd1a8a3a471a5db44dc68cfaded182c22496a792d549'}
 table_of_contents:
 - ref:
     seq: 1
@@ -69,6 +69,9 @@ table_of_contents:
   label: 為他比量品第三
   type: mulu
   level: 1
-hash: sha256:9d3cd4d776c2bdb40e1c08b79e52b84996d035f6a0bb91e7296f845c9740fe52
+hash: sha256:16562db08ed83fa9238e7cc9fea6d302737b33643d61559ff7b067527a55b9ca
 editions:
 - short: B
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
